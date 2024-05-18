@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .navbar{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+    position: relative;
+    
+}
+
+navbar::before{
+    content: "";
+    position: absolute;
+    background-color: rgb(241, 173, 255);
+    height: 90%;
+    width: 90%;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+}
+.navbar ul li{
+    font-size: 30px;
+}
+.navbar ul li a{
+    padding: 5px 20px;
+    text-decoration: none;
+    color: rgb(241, 173, 255);
+}
+
+.navbar ul li a:hover{
+    border-bottom: 2px solid gold;
+}
+
+
+    .heading{
+        color: wheat;
+        font-size: 3rem;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: center;
+        transform: scale(1,1.3);
+    }
+    
+       #About Me{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            height: 600px;
+            
+        }
+
+            .heading{
+             margin: 55px;
+            color: black;
+           text-align: center;
+           font-size: 30px;
+        }
+        
+        .About {
+            display: flex;
+        }
+
+
+         img{
+            width: 200px;
+            height: 300px;
+            padding: 0px 30px;
+          
+        }
+
+        .name{
+            padding: 10px;
+            color: chocolate;
+           display: grid;
+        }
+        .name h2{
+            font-size: 2rem;
+        }
+        .name p{
+            font-size: 1.3rem;
+        }
+        
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="Portfolio.html">Portfolio</a></li>
+            <li><a href="Education.html">Education</a></li>
+            <li><a href="AboutMe.html">About Me</a></li>
+            <li><a href="ContactMe.html">Contact Me</a></li>
+        </ul>
+    </nav>
+
+    <section id="About Me">
+    <h1 class="heading">About Me</h1>
+    <div class="About">
+        <img src="IMG_20240208_172028_822.jpg" alt="My pic">
+        <div class="name">
+            <h2>I'am Nway Nway Hlaing</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                Minima asperiores placeat officiis, beatae magnam mollitia
+                 enim adipisci tempora animi, incidunt sed? Porro pariatur
+                  explicabo saepe officiis nostrum expedita dolor recusandae.</p>
+        </div>
+    </div>
+    
+</section>
+</body>
+</html>
